@@ -1,5 +1,5 @@
 ---
-name: CI Workflow Pytest & Flake8 for advanced testing
+name: CI Workflow Pytest and Flake8
 
 on:
   push:
