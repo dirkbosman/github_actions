@@ -1,5 +1,11 @@
-name: CI Workflow Pytest and Flake8
-on: push
+---
+name: CI Workflow Pytest & Flake8
+
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   qa:
     name: Run Tests and Linting
@@ -7,7 +13,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
-      
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
