@@ -1,4 +1,4 @@
-name: CI Workflow for py-testing and flake8 
+name: CI Workflow Pytest and Flake8
 on:
   push:
     branches:
